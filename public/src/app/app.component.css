@@ -1,0 +1,42 @@
+*{
+    font-family: "Courier New", Courier, monospace;
+}
+.navbar{
+    position: fixed;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1px;
+   
+ }
+ .navbar-brand h2{
+     display: inline-block;
+     font-size: 40px;
+ }
+ 
+ .nav-link{
+    font-size: 15px;
+    vertical-align: center;
+}
+.nav-link li a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.nav-item img{
+    height: 42px;
+    width: 42px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+}

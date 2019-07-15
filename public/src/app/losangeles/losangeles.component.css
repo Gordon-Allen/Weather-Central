@@ -1,0 +1,69 @@
+*{
+    font-family: "Courier New", Courier, monospace;
+}
+
+.main_container{
+    background-color: aqua;
+        width: 100%;
+        border-radius: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1500px;
+    }
+
+.detail_container{
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 12px;
+    height: 45%;
+    width: 70%;
+    max-width: 2000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.detail_container h1{
+    text-align: center;
+    font-size: 7rem;
+}
+.detail_container h2{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration-line: underline;
+}
+.detail_container h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.detail_container img{
+    height: 60%;
+    width: 50%;
+    max-width: 1000px;
+    margin-left: 2%;
+    margin-top: 1.25%;
+    border-radius: 25px;
+}
+
+.detail_container table{
+    font-size: 36px;
+    text-align: center;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+.detail_container table th{
+    font-size: 38px;
+    text-align: center;
+}
+
+.detail_container table tbody tr{
+    border: .35rem solid black;
+}
+
+.temp_detail{
+    font-weight: 550;
+}
+
+.temp_title{
+    text-decoration-line: underline;
+}

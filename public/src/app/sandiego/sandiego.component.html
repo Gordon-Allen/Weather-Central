@@ -1,0 +1,31 @@
+<div class="main_container">
+    <br><br>
+    <div class="detail_container">
+        <h1>San-Deigo,CA</h1>
+        <h2>8th Largest City in the USA</h2>
+        <br>
+        <img align="left" src="assets/img/sandiego.jpg" alt="San Diego"/>
+        <table align="right">
+            <thead>
+                <tr>
+                    <th>Today's Temperature</th></tr>
+                <tr>
+                    <th>& Humidity Levels</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="temp_title">Average</span>: <span class="temp_detail">{{ weather.main.temp }}°F</span></td>
+                </tr>
+                <tr>
+                    <td><span class="temp_title">High Of</span>: <span class="temp_detail">{{weather.main.temp_max}}°F</span></td>
+                </tr>
+                <tr>
+                    <td><span class="temp_title">Low Of</span>: <span class="temp_detail">{{ weather.main.temp }}°F</span></td>
+                </tr>
+                <tr>
+                    <td><span class="temp_title">Humidity Level</span>: <span class="temp_detail">{{ weather.main.humidity }}%</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

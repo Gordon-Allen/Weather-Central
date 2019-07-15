@@ -1,0 +1,38 @@
+<div class="nav">
+  <nav class="navbar navbar-expand-xl navbar-light bg-lightgrey" data-spy="affix" data-offset-top="197">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <img src="assets/img/title_icon.png">
+              </li>
+              <li class="nav-item">
+                    <h2><a [routerLink]="['/']">Weather-Central</a></h2>
+              </li>
+              <li class="nav-link"><a [routerLink]="['/chicago']">    Chicago</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/dallas']">Dallas</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/losangeles']">Los-Angeles</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/newyorkcity']">New-York-City</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/philadelphia']">Philadelphia</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/phoenix']">Phoenix</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/sanantonio']">San-Antonio</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/sandiego']">San-Diego</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/sanjose']">San-Jose</a>|
+              </li>
+              <li class="nav-link"><a [routerLink]="['/indianapolis']">Indianapolis</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+</div>
+<router-outlet></router-outlet>
